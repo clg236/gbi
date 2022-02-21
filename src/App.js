@@ -55,7 +55,7 @@ const NFTForm = (props) => {
 
     nftContract.getNFTCount().then(function(results) {
       let count = ethers.utils.formatEther(results);
-      setOwnerNFTSs(count * 100000000000000000);
+      setOwnerNFTSs(count * 1000000000000000000);
     })
 
     // some console logs
